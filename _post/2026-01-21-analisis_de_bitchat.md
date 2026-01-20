@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Título de tu gran artículo"
-date: 2026-01-21
+date: 2026-01-20
 categories: [investigacion]
 ---
 
