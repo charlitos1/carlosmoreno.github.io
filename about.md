@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "man whoami"
+title: "whoami"
 permalink: /about/
 ---
 
