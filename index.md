@@ -28,17 +28,6 @@ $ ls -R /archive
 * {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
-$ tail -n 1 /logs/latest_post
-Total posts detectados: {{ site.posts | size }}
-
-{% for post in site.posts limit:1 %}
----
-### > {{ post.title | upcase }}
-**DATE:** {{ post.date | date: "%d/%m/%Y" }}
----
-
-{{ post.content }}
-{% endfor %}
 
 ---
 
