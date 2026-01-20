@@ -6,7 +6,7 @@ categories: [tecnologia, gestion]
 ---
 **Autor:** Carlos Moreno
 
-# [ PROTOCOLO OPERATIVO: EL ALGORITMO ]
+# [ PROTOCOLO OPERATIVO: EL ALGORITMO DE ELON MUSK ]
 ### Fuente: Biografía de Elon Musk (Walter Isaacson, pág. 321)
 
 Este es el manifiesto de ingeniería y gestión que rige las operaciones en Tesla y SpaceX. Un proceso de cinco pasos diseñado para cuestionar la burocracia y optimizar la producción.
