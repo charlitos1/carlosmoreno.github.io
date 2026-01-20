@@ -3,7 +3,8 @@ layout: default
 title: "root@carlosmoreno:~$"
 ---
 
-# [ SYSTEM STATUS: ACTIVE ]
+# [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
+# ---------------------------------------------------------
 
 $ whoami
 > carlosmoreno — Periodista y Entusiasta de la Tecnología.
@@ -11,7 +12,11 @@ $ whoami
 $ tail -n 1 /logs/latest_post
 {% assign latest_post = site.posts.first %}
 ---
-### > {{ latest_post.title }} ({{ latest_post.date | date: "%Y-%m-%d" }})
+### > {{ latest_post.title | uppercase }}
+**DATE:** {{ latest_post.date | date: "%d/%m/%Y" }}
+**STATUS:** Published
+**READ_TIME:** 2 min read
+---
 
 {{ latest_post.content }}
 
