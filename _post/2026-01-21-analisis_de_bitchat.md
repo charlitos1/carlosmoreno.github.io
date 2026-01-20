@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Título de tu gran artículo"
+title: "Bitchat"
 date: 2026-01-20
 categories: [investigacion]
 ---
