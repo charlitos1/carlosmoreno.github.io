@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "root@carlosmoreno:~/archive$"
+title: "/archive"
 ---
 
 # [ SYSTEM ARCHIVE: FULL LIST ]
