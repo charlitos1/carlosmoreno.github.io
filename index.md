@@ -3,33 +3,31 @@ layout: default
 title: "root@carlosmoreno:~$"
 ---
 
-# [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d" }} ]
-# ---------------------------------------------------------
-
 $ whoami
-> carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure | Project Manager at Bitseat | Presidency NGO paulvenezuela.org | Journalist | Developing enterprise project.
+> carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure | Project Manager at Bitseat | Presidency NGO paulvenezuela.org | Journalist | Developing enterprise project
 
-$ /novedad
+# [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
 
-{% for post in site.posts limit:1 %}
+$ tail -n 1 /logs/latest_post
+{% assign latest_post = site.posts.first %}
 ---
-### > {{ post.title | upcase }}
-**DATE:** {{ post.date | date: "%d/%m/%Y" }}
----
-
-{{ post.content }}
-
-{% endfor %}
-
+### > {{ latest_post.title | upcase }}
+**DATE:** {{ latest_post.date | date: "%d/%m/%Y" }}
 ---
 
-$ /archive
-{% for post in site.posts offset:1 %}
+{{ latest_post.content }}
+
+---
+
+$ ls -l /recent_posts (Showing last 5)
+{% for post in site.posts offset:1 limit:5 %}
 * {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
+$ cd /archive
+> [ Ver todos los registros del sistema (Full Archive) ](/archive)
 
 ---
 
 $ help
-> Usa el archivo inferior para navegar por entradas antiguas.
+> El sistema muestra el post más reciente y los 5 anteriores. Usa /archive para el historial completo.
