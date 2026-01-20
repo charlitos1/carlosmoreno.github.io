@@ -20,12 +20,12 @@ carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure - R
 
 ---
 
-$ ls -l /recent_posts (Showing last 5)
+$ /recent_posts (Showing last 5)
 {% for post in site.posts offset:1 limit:5 %}
 * {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
-$ cd /archive
+$ archive
 > [ Ver todos los registros del sistema (Full Archive) ](/archive)
 
 ---
