@@ -7,9 +7,9 @@ title: "root@carlosmoreno:~$"
 # ---------------------------------------------------------
 
 $ whoami
-> carlosmoreno — Periodista y Entusiasta de la Tecnología.
+> carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure | Project Manager at Bitseat | Presidency NGO paulvenezuela.org | Journalist | Developing enterprise project.
 
-$ tail -n 1 /logs/latest_post
+$ /novedad
 
 {% for post in site.posts limit:1 %}
 ---
@@ -23,7 +23,7 @@ $ tail -n 1 /logs/latest_post
 
 ---
 
-$ ls -R /archive
+$ /archive
 {% for post in site.posts offset:1 %}
 * {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
 {% endfor %}
