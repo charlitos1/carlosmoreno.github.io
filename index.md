@@ -6,26 +6,27 @@ title: "root@carlosmoreno:~$"
 # [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
 # ---------------------------------------------------------
 
-$ whoami
-> carlosmoreno — Periodista y Entusiasta de la Tecnología.
-
 $ tail -n 1 /logs/latest_post
 {% assign latest_post = site.posts.first %}
 ---
-### > {{ latest_post.title | uppercase }}
-**DATE:** {{ latest_post.date | date: "%d/%m/%Y" }}
-**STATUS:** Published
-**READ_TIME:** 2 min read
+### > {{ latest_post.title | upcase }}
+**DATE:** {{ latest_post.date | date: "%d/%m/%Y" }} | **CATEGORY:** {{ latest_post.categories | first | upcase }}
 ---
 
 {{ latest_post.content }}
 
 ---
 
-$ ls -l /archive
-{% for post in site.posts offset:1 %}
-* {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
+$ ls -R /archive
+{% assign postsByMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
+{% for month in postsByMonth %}
+**[{{ month.name }}]**
+{% for post in month.items %}
+  |-- [{{ post.date | date: "%d" }}] > [{{ post.title }}]({{ post.url }})
+{% endfor %}
 {% endfor %}
 
+---
+
 $ help
-> El sistema muestra automáticamente la última entrada. Usa el archivo para ver posts anteriores.
+> Sistema de archivos organizado por meses. Los posts anteriores se listan en el árbol superior.
