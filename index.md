@@ -1,30 +1,34 @@
-
 ---
 layout: default
 title: "root@carlosmoreno:~$"
 ---
 
-# [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
+# [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d" }} ]
+# ---------------------------------------------------------
+
+$ whoami
+> carlosmoreno — Periodista y Entusiasta de la Tecnología.
 
 $ tail -n 1 /logs/latest_post
-{% assign latest_post = site.posts.first %}
 
-{% if latest_post %}
+{% for post in site.posts limit:1 %}
 ---
-### > {{ latest_post.title | upcase }}
-**DATE:** {{ latest_post.date | date: "%d/%m/%Y" }}
+### > {{ post.title | upcase }}
+**DATE:** {{ post.date | date: "%d/%m/%Y" }}
 ---
 
-{{ latest_post.content }}
+{{ post.content }}
 
-{% else %}
-$ system_err: No se detectan posts. Verifica la fecha del archivo.
-{% endif %}
+{% endfor %}
 
 ---
 
 $ ls -R /archive
-{% for post in site.posts %}
+{% for post in site.posts offset:1 %}
 * {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
+---
+
+$ help
+> Usa el archivo inferior para navegar por entradas antiguas.
