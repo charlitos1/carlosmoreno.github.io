@@ -3,9 +3,6 @@ layout: default
 title: "root@carlosmoreno:~$"
 ---
 
-$ whoami
-carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure - Residencia de Estudiantes de Madrid | Project Manager | Presidency NGO paulvenezuela.org | Journalist |
-
 # [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
 
 [$ /novedades
