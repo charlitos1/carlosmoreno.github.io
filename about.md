@@ -14,36 +14,23 @@ permalink: /about/
 
 > **[RESUMEN]**
 
-Graduado en Venezuela desde 2004 como periodista. He
-ejercido la carrera en medios de comunicación impresos,
-radiales y digitales, y también como consultor.
-Desde 2008 he ocupado posiciones de coordinación de equipos
-como Jefe de Investigación, luego como Redactor Jefe y
-finalmente como Director de medio hasta 2016.
-Fundador de la Revista República, Impresa y digital en
-Maracaibo-Venezuela. Responsable de la arquitectura digital del
-Diario Versión Final entre 2013 - 2016 y todo su compendio
+Graduado en Venezuela desde 2004 como periodista. He ejercido la carrera en medios de comunicación impresos,radiales y digitales, y también como consultor.
+
+Desde 2008 he ocupado posiciones de coordinación de equipos como Jefe de Investigación, luego como Redactor Jefe y finalmente como Director de medio hasta 2016.
+Fundador de la Revista República, Impresa y digital en Maracaibo-Venezuela. Responsable de la arquitectura digital del Diario Versión Final entre 2013 - 2016 y todo su compendio
 editorial.
-En 2016, ya en España, fui acreditado por el Ministerio de la
-Presidencia - Secretaría de Estado de Comunicación como
-Colaborador de Prensa Extranjera.
-He trabajado en España como redactor y community manager
-para empresas como Global MKD, RentStyle Apartment, The
-Improving, Subtrate Pentarte, AlNavio.es.
-Fundador en España de la empresa The Castle Of Minds donde
-fui responsable del diseño, enfoque y desarrollo de entornos
-educativos creativos para colegios de Madrid.
-Trabajé como desarrollador web y gestión cloud en Amazon
-Web Services para Scenikus (SaaS de tecnología streaming) y
-mantenimiento de CMS.
-Más recientemente como Project Manager y arquitecto de
-soluciones digitales en la nube para la empresa eEvents-Live
-desarrolladora de Software y eventos digitales.
-En 2017 fundé en España la Asociación Civil Paúl Venezuela para
-la labor humanitaria hacia el país. Al día de hoy hemos logrado
+
+En 2016, ya en España, fui acreditado por el Ministerio de la Presidencia - Secretaría de Estado de Comunicación como Colaborador de Prensa Extranjera.
+
+He trabajado en España como redactor y community manager para empresas como Global MKD, RentStyle Apartment, The Improving,Subtrate Pentarte, AlNavio.es.
+Fundador en España de la empresa The Castle Of Minds donde fui responsable del diseño, enfoque y desarrollo de entornos educativos creativos para colegios de Madrid.
+
+Trabajé como desarrollador web y gestión cloud en Amazon Web Services para Scenikus (SaaS de tecnología streaming) y mantenimiento de CMS.Más recientemente como Project Manager y arquitecto de soluciones digitales en la nube para la empresa eEvents-Live desarrolladora de Software y eventos digitales.
+
+En 2017 fundé en España la Asociación Civil Paúl Venezuela para la labor humanitaria hacia el país. Al día de hoy hemos logrado
 impactar positivamente en más de 15 mil pacientes.
 
-> **[TECNOLOGÍA]**
+> **[TECNOLOGÍAS]**
 
     Cloud Computing (AWS)
 
